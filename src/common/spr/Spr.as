@@ -14,7 +14,7 @@ package common.spr
 
 		private function init():void
 		{
-			trace('Class Button init');
+			//trace('Class Button init');
 		}
 	}
 }

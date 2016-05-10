@@ -13,7 +13,7 @@ package common.room
 
 		private function init(event:Event):void
 		{
-			trace('Class Room init');
+			//trace('Class Room init');
 			addedToStageHandler();
 		}
 
@@ -26,7 +26,7 @@ package common.room
 
 		private function removeFromStageHandler(event:Event = null):void
 		{
-			trace('Class Room removeFromStageHandler');
+			//trace('Class Room removeFromStageHandler');
 			removeEventListener(Event.REMOVED_FROM_STAGE, removeFromStageHandler);
 			stage.removeEventListener(KeyboardEvent.KEY_DOWN, keyDownHandler);
 			addEventListener(Event.ADDED_TO_STAGE, addedToStageHandler);
@@ -34,7 +34,7 @@ package common.room
 
 		public function keyDownHandler(event:KeyboardEvent):void
 		{
-			trace('Class Room keyCode = ' + event.keyCode);
+			//trace('Class Room keyCode = ' + event.keyCode);
 		}
 	}
 }

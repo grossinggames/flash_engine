@@ -33,7 +33,7 @@ package game.rooms
 			btnMainRoom.y = 150;
 			btnMainRoom.addEventListener(MouseEvent.MOUSE_DOWN, mouseDown);
 			addChild(btnMainRoom);
-			
+			/*			
 			//Кнопка Передачи хода
 			[Embed(source = "../../../lib/images/allow_walk.png")] 
 			var sprite2:Class;
@@ -60,6 +60,7 @@ package game.rooms
 			btnCancel.y = 300;
 			btnCancel.addEventListener(MouseEvent.CLICK, Common.p2pCancel);
 			addChild(btnCancel);
+			*/
 		}
 		
 		public function mouseDown(event:MouseEvent):void {
@@ -68,8 +69,8 @@ package game.rooms
 
 		private function init(e:Event):void
 		{
-			trace('Class GameRoom init');
-
+			//trace('Class GameRoom init');
+			/*
 			if (Common.p2pUsers['me'])
 			{
 				addChild(Common.p2pUsers['me']);
@@ -79,13 +80,15 @@ package game.rooms
 			{
 				addChild(Common.p2pUsers['neighbor']);
 			}
+			*/
 		}
 		
 		override public function keyDownHandler(event:KeyboardEvent):void
 		{
+			/*
 			if (Common.p2pCanMove)
 			{
-				trace('Class GameRoom keyDownHandler');
+				//trace('Class GameRoom keyDownHandler');
 				
 				var step:int = 5;
 				
@@ -112,11 +115,12 @@ package game.rooms
 						break;
 				}
 			}
+			*/
 		}
 		
 		private function onMouseClick(e:Event):void
 		{
-			trace('Class GameRoom onMouseClick');
+			//trace('Class GameRoom onMouseClick');
 		}
 	}
 }

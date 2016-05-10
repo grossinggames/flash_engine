@@ -11,7 +11,7 @@ package common.room
 	{
 		public function RoomStorage()
 		{
-			trace('Class RoomStorage init');
+			//trace('Class RoomStorage init');
 		}
 
 	}

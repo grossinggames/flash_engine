@@ -32,17 +32,18 @@ package game.rooms
 		}
 		
 		public function mouseDown(event:MouseEvent):void {
-			Common.p2pConnect();
+			//Common.p2pConnect();
+			Common.switchRoom('GameRoom');
 		}
 		
 		private function init(e:Event):void
 		{
-			trace('Class MainRoom init');
+			//trace('Class MainRoom init');
 		}
 
 		private function onMouseClick(e:Event):void
 		{
-			trace('Class MainRoom onMouseClick');
+			//trace('Class MainRoom onMouseClick');
 		}
 	}
 }

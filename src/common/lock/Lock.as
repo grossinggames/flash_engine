@@ -9,12 +9,12 @@ package common.lock
 	{
 		public function Lock() 
 		{
-			trace('Create Lock');
+			//trace('Create Lock');
 		}
 		
 		public function lockApp(lock:Number):void
 		{
-			trace('lockApp');
+			//trace('lockApp');
 			
 			if (lock)
 			{

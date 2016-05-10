@@ -11,7 +11,7 @@ package common.room
 	{
 		public function RoomHub()
 		{
-			trace('Class RoomHub init');
+			//trace('Class RoomHub init');
 		}
 
 	}

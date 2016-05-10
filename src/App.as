@@ -13,7 +13,7 @@ package
 	{
 		public function App() 
 		{
-			trace('App');
+			//trace('App');
 
 			addChild(Common.roomField);
 			Common.createRoom(new MainRoom, 'MainRoom');

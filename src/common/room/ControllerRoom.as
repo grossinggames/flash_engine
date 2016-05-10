@@ -19,7 +19,7 @@ package common.room
 		
 		public function ControllerRoom()
 		{
-			trace('ControllerRoom');
+			//trace('ControllerRoom');
 		}
 
 		public function createRoom(room:Room, name:String):void
